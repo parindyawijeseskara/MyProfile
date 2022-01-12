@@ -1,0 +1,47 @@
+.center{
+    margin: auto;
+    width: 60%;
+    margin-top: -65px;
+    border: 1px solid black;
+    position: relative;
+    padding: -21px;
+    margin-top: 5px;
+}
+
+.center2 {
+    margin: auto;
+    height: 43%;
+    width: 40%;
+    background: black;
+    margin-top: 10px;
+    
+}
+
+.center3 {
+    margin: auto;
+    
+    width: 40%;
+    background: white;
+    margin-top: 10px;
+    position: relative;
+}
+
+.center4 {
+    margin: auto;
+    
+    width: 40%;
+    background: black;
+    margin-top: 10px;
+   
+}
+.box{
+    display: block;
+            margin-left: auto;
+            margin-right: auto;
+            
+            width: 550px; 
+            background: pink;
+            color: white;
+           
+            position: relative;
+}

@@ -1,0 +1,403 @@
+#rcorners4 {
+    border-radius: 15px;
+    background-color: #249876;
+    padding: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+#rcorners5 {
+  border-radius: 15px;
+    background-color: #249876;
+    padding: 20px;
+    width: 190px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+
+  p.main {
+    text-align: justify;
+   
+}
+
+.center1 {
+  margin: auto;
+  width: 60%;
+  margin-top: -65px;
+  border: 1px solid black;
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+
+ 
+  
+  }
+
+
+  .center2 {
+    margin: auto;
+    width: 60%;
+    margin-top: -65px;
+    border: 1px solid #1C1C1C;
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 16px;
+    
+  }
+
+  p.main {
+    text-align: justify;
+  
+  }
+  .center {
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Orelega One';
+}
+
+#box{
+  width: 60%;
+            height: 20%;
+           
+            margin: auto;
+            border: 1px solid black;
+            display: grid;
+            margin-top: -60px;
+            background: #1C1C1C;
+}
+
+.centered {
+  width: 100px;
+  height: 85px;
+  margin-left: 20px;
+  margin-top: -107px;
+  align-items: left;
+  
+  
+  background: #1C1C1C; /* Not necessary just to see the result clearly */
+}
+
+#box1{
+  width: 45%;
+  height: 35%;
+  margin: auto;
+  background: yellowgreen;
+  margin-top: -20px;
+  position: relative;
+  
+}
+
+#box2{
+  width: 45%;
+  height: 32%;
+  margin: auto;
+  background: #1C1C1C;
+  margin-top: -10px;
+  position: relative;
+}
+
+#box3{
+  width: 125px;
+  height: 125px;
+  margin: auto;
+
+ border-radius: 17px;
+  position: relative;
+  opacity: 0.7;
+  background: linear-gradient(to bottom, rgb(42, 25, 85), rgba(23, 9, 77, 0));
+  
+}
+
+
+#box4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+ 
+  border-radius: 17px;
+  margin-left: 25px;
+  margin-top: 20px;
+  background: linear-gradient(to bottom, rgb(87, 69, 133), rgba(122, 87, 158, 0));
+}
+
+
+
+#overlay {
+  z-index: 17;
+  margin: 40px;
+  background: red;
+}
+
+.grid-container {
+ 
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding: 10px;
+  margin-top: -35px;
+}
+
+.grid-item {
+  
+  background-color: black(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 5px;
+  height: 150px; /* Should be removed. Only for demonstration */
+  
+}
+
+.left, .right {
+  width: 25%;
+  
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: [col] 250px [col] 600px [col] 100px [col] 100px  ;
+  grid-template-rows: [row] auto [row] auto [row] ;
+  background-color: #1C1C1C;
+  color: green;
+}
+
+.box {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  background-color: purple;
+
+}
+
+.c {
+ 
+  grid-column: col ;
+  grid-row: row 2 ;
+  background: #1C1C1C;
+}
+.d {
+  
+  grid-column: col 2 / span 3 ;
+  grid-row: row 2 ;
+  background: #1C1C1C;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #1C1C1C;
+  padding: 20px;
+  width: 60%;
+  margin: auto;
+  bottom: 0;
+  height: 50%;
+  
+  
+  
+  
+ 
+  
+}
+
+.containe1 {
+  border-radius: 5px;
+  background-color: brown;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+  height: 50%;
+  
+}
+
+.shape {
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px; 
+  grid-template-rows: 40px;
+  column-gap: 40px;
+  margin: auto;
+  margin-top: 8px;
+}
+
+.item {
+background: black;
+
+ 
+}
+
+
+.footer {
+  
+  background-color: black;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+  height: 100%;
+  
+}
+
+
+#shape1 {
+  border-radius: 5px;
+  background-color: #1C1C1C;
+  position: relative;
+  width: 90%;
+  margin: auto;
+ margin-top: -30px;
+  height: 100%;
+  
+}
+
+.grid-container1 {
+ 
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #249876;
+  padding: 10px;
+  margin-top: -20px;
+}
+
+.grid-item1 {
+  
+  background-color: black(255, 255, 255, 0.8);
+ 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+
+.shape2{
+  width: 140px;   
+  height: 140px;
+  margin: auto;
+
+ border-radius: 17px;
+  position: relative;
+  
+  
+  opacity: 0.7;
+  background: #249876;
+  background: linear-gradient(to bottom, rgb(27, 69, 117), rgba(26, 16, 82, 0));
+  
+}
+
+.shape2 :hover{
+  background-color: black;
+}
+
+.line {
+  vertical-align: middle;
+  margin-left: -50px;
+  margin-right: -50px;
+  border: 2px solid #249876;
+  margin-top: 24px;
+  
+}
+
+
+#shape3 {
+  background-color: purple;
+  position: relative;
+  width: 70%;
+  margin: auto;
+ margin-top: -30px;
+  height: 50%;
+  
+}
+
+
+.shape3 {
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px; 
+  grid-template-rows: 200px;
+  column-gap: 80px;
+  margin: auto;
+  margin-top: 8px;
+  margin-left: 32px;
+  margin-top: -300px;
+}
+
+.item3 {
+
+background: linear-gradient(to bottom, rgb(61, 50, 47), rgba(44, 41, 51, 0));
+
+}
+
+.box1 {
+  width: 55%;
+  height: 18%;
+  margin: auto;
+  background: #1C1C1C;
+  margin-top: -20px;
+  position: relative;
+
+  
+  
+
+}
+.centered1 {
+  width: 100px;
+  height: 110px;
+  margin-left: 20px;
+  margin-top: 30px;
+  align-items: left;
+  
+  
+  background: #1C1C1C; /* Not necessary just to see the result clearly */
+}
+
+.image1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 26px;
+  margin-left: 10px;
+}
+
+.image2{
+  position: absolute;
+  top: 80%;
+  background: #249876;
+  height: 40px;
+  width: 140px;
+  margin: auto;
+  margin-top: -36%;
+  margin-left: 72%;
+}
+
