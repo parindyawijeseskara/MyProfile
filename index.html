@@ -307,6 +307,7 @@
             }
         }
 
+         /* Made responsive for lap */
         @media only screen and  (max-width: 1024px) {
 
             header{
@@ -348,6 +349,7 @@
             }  
         }
 
+         /* Made responsive for mobile */
         @media only screen and  (max-width: 320px) {
             header{
             position: relative;
@@ -371,7 +373,7 @@
                 background-size: cover;
                 height: 370px; 
                 width:610px; 
-                background-color: royalblue;
+                background-color: #1C1C1C;
                 margin-left: 560px;
                 margin-top: 40px;
                 position: absolute;
@@ -384,12 +386,78 @@
                 margin: auto;
                 bottom: 0;
                 height: 100%;
-            }           
+            }    
+        }
+
+        @media only screen and  (max-width: 425px) {
+            header{
+            position: relative;
+            height: 80px;
+            box-shadow: -2px 6px 9px -4px #917a7a;
+            background-color: rebeccapurple;
+            width: 288%;
+
+            }
+            main > section  {
+            height: 70vh;  
+            width: 288vw;
+            position: relative;
+            display: flex;
+            background: #249876;
+            flex-direction: column;
+            
+            }
+            main > section:nth-child(2)>div>div:nth-child(2){
+                background-size: cover;
+                height: 370px; 
+                width:610px; 
+                background-color: #1C1C1C;
+                margin-left: 530px;
+                margin-top: 40px;
+                position: absolute;
+
+            }
+        }
+
+        @media only screen and  (max-width: 375px) {
+            header{
+            position: relative;
+            height: 80px;
+            box-shadow: -2px 6px 9px -4px #917a7a;
+            background-color: rebeccapurple;
+            width: 304%;
+
+            }
+            main > section  {
+            height: 70vh;  
+            width: 304vw;
+            position: relative;
+            display: flex;
+            background: #249876;
+            flex-direction: column;
+            
+            }
+            main > section:nth-child(2)>div>div:nth-child(2){
+                background-size: cover;
+                height: 370px; 
+                width:610px; 
+                background-color: #1C1C1C;
+                margin-left: 508px;
+                margin-top: 40px;
+                position: absolute;
+            }
+
+            main > section:nth-child(1)>div>div{
+                background-color: #917a7a;
+                margin-top: -10px;
+            }
         }
 
 
 
-        
+
+
+
     </style>
 
 
@@ -421,7 +489,7 @@
         <div>
 
             <h1 style="font-family: 'Be Vietnam Pro', sans-serif; font-size: 24px; margin-top: -12px;"><dfn id="home">Danushi.</dfn></h1>
-            <h2 style="font-family: 'Be Vietnam Pro', sans-serif; font-size: 42px; margin-top: 70px;">Iam</h2>
+            <h2 style="font-family: 'Be Vietnam Pro', sans-serif; font-size: 42px; margin-top: 30px;">Iam</h2>
             <h2 style="font-family: 'Be Vietnam Pro', sans-serif; font-size: 44px; ">Danushi Wijesekara</h2>
             <h1 style="font-family: 'Be Vietnam Pro', sans-serif; font-size: 25px;">And I'm A Full-Stack Developer</h1>
 
@@ -435,9 +503,6 @@
                 
          </div>
     </section>
-
-
-
 
     <section>
         <div>

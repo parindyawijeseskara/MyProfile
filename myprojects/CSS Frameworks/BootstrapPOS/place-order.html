@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AWS POS System</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/styles/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- DashBoard Content-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <div class="container-fluid " >
+            <a class="navbar-brand">
+                <img src="../assets/img/image1.png" alt="Logo" style="width:60px;" class="rounded-pill">
+            </a>
+            <a class="navbar-brand text-success" href="#">AWS POS SYSTEM</a>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar ">
+                <ul class="navbar-nav text-white">
+                    <li class="nav-item ">
+                        <a class="nav-link active " aria-current="page" id="linkHome">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" id="linkCustomer">Manage Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  id="linkItem">Manage Item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkOrder">Manage Order</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="linkHistory">History</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <section id="placeOrderContent" style="background-color: black; height:86vh">
+        <section class="mh-100 container-fluid" >
+
+            <div class="mh-100" style="width: 80vh; ">
+                <div class="shadow p-3 pt-2 pb-1 px-3 py-3 " style="background-color: #1C1C1C;height: 15vh" >
+                    <div class="form-group">
+                        <label class="text-white mt-2 ">Customer Name :</label>
+                        <select id="txtCustomerName" >
+                            <option selected>Choose Customer</option>
+                        </select>
+
+                        <button class="btn btn-success" id="btnSearchCustomerName" style="margin-left: 20px">Search</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mt-5">
+            <div class="col" >
+                <table class="table table-hover">
+                    <thead class="bg-success text-white">
+                    <tr>
+                        <th>Order Id</th>
+                        <th>Customer Id</th>
+                        <th>Item Code</th>
+                        <th>Date</th>
+                        <th>Qty</th>
+                        <th>Total</th>
+                        <th>Balance</th>
+                    </tr>
+                    </thead>
+                    <tbody class="text-white" id="placeOrderTable">
+
+
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+    </section>
+
+
+</body>
+</html>
